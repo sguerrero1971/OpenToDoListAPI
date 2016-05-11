@@ -5,6 +5,8 @@ gem 'rails', '4.2.5'
 
 gem 'bootstrap-sass'
 
+gem 'active_model_serializers'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

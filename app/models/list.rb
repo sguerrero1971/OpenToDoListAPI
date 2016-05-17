@@ -5,6 +5,6 @@ class List < ActiveRecord::Base
 
   validates :permission, presence: true
 
-  enum permission: [ :open, :viewable, :private ]
+  enum permission: [ :open, :viewable, :secret ]
 
 end
